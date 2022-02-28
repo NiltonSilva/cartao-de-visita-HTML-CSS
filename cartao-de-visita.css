@@ -11,10 +11,11 @@
     margin-top: 20px;
 }
 
-#cartao-de-visita p{
+#cartao-de-visita h1{
     letter-spacing: 1.2px;
     margin-left: 20px;
     word-spacing: 5px;
+    font-size: 20px;
 }
 
 li {
