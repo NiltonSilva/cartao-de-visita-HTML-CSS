@@ -1,0 +1,49 @@
+#cartao-de-visita {
+    border: 1px solid #ddd;
+    background-image: url(backgorund.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#cartao-de-visita p{
+    letter-spacing: 1.2px;
+    margin-left: 20px;
+    word-spacing: 5px;
+}
+
+li {
+    list-style: none;
+    margin-left: 20px;
+    text-transform: uppercase;
+    text-size-adjust: 12px;
+    font-size: 14px;
+}
+
+#instagram {
+    list-style-image: url(Insta.png);
+    padding: 1px;
+}
+
+#twitter {
+    list-style-image: url(Twitter.png);
+    padding: 1px;
+}
+
+#youtube {
+    list-style-image: url(Youtube.png);
+    padding: 1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
