@@ -1,14 +1,19 @@
+body {
+    background-color: black;
+}
+
 #cartao-de-visita {
     border: 1px solid #ddd;
-    background-image: url(backgorund.png);
+    background-image: url(./backgorund.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     width: 400px;
     height: 200px;
+    margin: auto;
     margin-top: 20px;
+    box-sizing: border-box;
 }
 
 #cartao-de-visita h1{
@@ -27,17 +32,17 @@ li {
 }
 
 #instagram {
-    list-style-image: url(Insta.png);
+    list-style-image: url(./Insta.png);
     padding: 1px;
 }
 
 #twitter {
-    list-style-image: url(Twitter.png);
+    list-style-image: url(./Twitter.png);
     padding: 1px;
 }
 
 #youtube {
-    list-style-image: url(Youtube.png);
+    list-style-image: url(./Youtube.png);
     padding: 1px;
 }
 
